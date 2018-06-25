@@ -3,10 +3,10 @@
 #include <QtConcurrent>
 
 //QRgb = 0xAARRGGBB
-const QRgb color1 = QRgb(0x00000000);
-const QRgb color2 = QRgb(0x006666FF);
-const QRgb color3 = QRgb(0x004747D1);
-const QRgb color4 = QRgb(0x00E68A00);
+const QRgb color1 = QRgb(0xFF000000);
+const QRgb color2 = QRgb(0xFF6666FF);
+const QRgb color3 = QRgb(0xFF4747D1);
+const QRgb color4 = QRgb(0xFFE68A00);
 
 SandpileModel::SandpileModel(QObject *parent) : QObject(parent)
 {
